@@ -1,0 +1,22 @@
+TAX INVOICE
+Apex Cloud Systems Inc.
+100 Silicon Blvd, Suite 400, San Jose, CA
+Tax ID: US-EIN-9481920
+
+Bill To:
+Quantum Enterprises Ltd.
+500 Tech Parkway, Austin, TX
+
+Invoice No: INV-2026-103
+Date: 2026-10-04
+Due Date: 2026-11-04
+Payment Terms: Net 30 Days
+
+Description                     Qty    Unit Price     Total
+------------------------------------------------------------
+Enterprise Cloud License Tier A   1    $10750.00    $10750.00
+
+Subtotal:     $10750.00
+Tax (18%):    $1935.00
+Grand Total:  $12685.00
+Currency:     USD

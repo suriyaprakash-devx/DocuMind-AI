@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - ENVIRONMENT=production
+      - DATABASE_URL=postgresql://documind:documind_secure_pass@db:5432/documind
+      - JWT_SECRET=documind_ultra_secure_jwt_secret_key_change_in_production_2026
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: documind
+      POSTGRES_PASSWORD: documind_secure_pass
+      POSTGRES_DB: documind
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  pgdata:

@@ -1,0 +1,18 @@
+Candidate M Developer
+Email: candidate.m@techtalent.io | Phone: +1 (555) 019-1012
+Location: San Francisco, CA | LinkedIn: linkedin.com/in/candidate-m
+
+PROFESSIONAL SUMMARY
+Senior Full-Stack AI Engineer with 6+ years of production experience architecting OCR pipelines,
+LLM orchestration platforms, and high-performance React frontends.
+
+CORE SKILLS
+Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL, Redis, Groq API, AWS.
+
+EXPERIENCE
+Lead Document Intelligence Engineer | CloudScale Inc. (2023 - Present)
+- Engineered enterprise OCR pipeline processing 1.5M pages monthly.
+- Reduced manual data entry latency by 85% via automated confidence scoring.
+
+EDUCATION
+B.S. in Computer Science & Engineering | University of Technology (2018 - 2022)

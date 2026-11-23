@@ -1,0 +1,17 @@
+BLUE BOTTLE COFFEE & BAKERY
+315 Linden St, San Francisco, CA
+Terminal POS #04
+
+Receipt #88010
+Date: 2026-10-11
+Time: 08:35 AM
+Cashier: Sarah M.
+
+1x Single Origin Espresso        $4.50
+1x Avocado Sourdough Toast       $28.50
+
+Subtotal:     $33.00
+Sales Tax:    $1.35
+Total Amount: $34.35
+Payment: Visa Contactless *4129
+Thank you for visiting!

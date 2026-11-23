@@ -1,0 +1,867 @@
+[
+  {
+    "filename": "inv_acme_001.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-100",
+      "invoice_date": "2026-10-01",
+      "due_date": "2026-11-01",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 10000.0,
+      "tax_amount": 1800.0,
+      "total_amount": 11800.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_002.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-101",
+      "invoice_date": "2026-10-02",
+      "due_date": "2026-11-02",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 10250.0,
+      "tax_amount": 1845.0,
+      "total_amount": 12095.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_003.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-102",
+      "invoice_date": "2026-10-03",
+      "due_date": "2026-11-03",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 10500.0,
+      "tax_amount": 1890.0,
+      "total_amount": 12390.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_004.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-103",
+      "invoice_date": "2026-10-04",
+      "due_date": "2026-11-04",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 10750.0,
+      "tax_amount": 1935.0,
+      "total_amount": 12685.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_005.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-104",
+      "invoice_date": "2026-10-05",
+      "due_date": "2026-11-05",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 11000.0,
+      "tax_amount": 1980.0,
+      "total_amount": 12980.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_006.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-105",
+      "invoice_date": "2026-10-06",
+      "due_date": "2026-11-06",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 11250.0,
+      "tax_amount": 2025.0,
+      "total_amount": 13275.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_007.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-106",
+      "invoice_date": "2026-10-07",
+      "due_date": "2026-11-07",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 11500.0,
+      "tax_amount": 2070.0,
+      "total_amount": 13570.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_008.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-107",
+      "invoice_date": "2026-10-08",
+      "due_date": "2026-11-08",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 11750.0,
+      "tax_amount": 2115.0,
+      "total_amount": 13865.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_009.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-108",
+      "invoice_date": "2026-10-09",
+      "due_date": "2026-11-09",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 12000.0,
+      "tax_amount": 2160.0,
+      "total_amount": 14160.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_010.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-109",
+      "invoice_date": "2026-10-10",
+      "due_date": "2026-11-10",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 12250.0,
+      "tax_amount": 2205.0,
+      "total_amount": 14455.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_011.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-110",
+      "invoice_date": "2026-10-11",
+      "due_date": "2026-11-11",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 12500.0,
+      "tax_amount": 2250.0,
+      "total_amount": 14750.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_012.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-111",
+      "invoice_date": "2026-10-12",
+      "due_date": "2026-11-12",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 12750.0,
+      "tax_amount": 2295.0,
+      "total_amount": 15045.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_013.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-112",
+      "invoice_date": "2026-10-13",
+      "due_date": "2026-11-13",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 13000.0,
+      "tax_amount": 2340.0,
+      "total_amount": 15340.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_014.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-113",
+      "invoice_date": "2026-10-14",
+      "due_date": "2026-11-14",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 13250.0,
+      "tax_amount": 2385.0,
+      "total_amount": 15635.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_015.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-114",
+      "invoice_date": "2026-10-15",
+      "due_date": "2026-11-15",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 13500.0,
+      "tax_amount": 2430.0,
+      "total_amount": 15930.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_016.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-115",
+      "invoice_date": "2026-10-16",
+      "due_date": "2026-11-16",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 13750.0,
+      "tax_amount": 2475.0,
+      "total_amount": 16225.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_017.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-116",
+      "invoice_date": "2026-10-17",
+      "due_date": "2026-11-17",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 14000.0,
+      "tax_amount": 2520.0,
+      "total_amount": 16520.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_018.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-117",
+      "invoice_date": "2026-10-18",
+      "due_date": "2026-11-18",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 14250.0,
+      "tax_amount": 2565.0,
+      "total_amount": 16815.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_019.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-118",
+      "invoice_date": "2026-10-19",
+      "due_date": "2026-11-19",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 14500.0,
+      "tax_amount": 2610.0,
+      "total_amount": 17110.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "inv_acme_020.txt",
+    "category": "Invoice",
+    "ground_truth": {
+      "invoice_number": "INV-2026-119",
+      "invoice_date": "2026-10-20",
+      "due_date": "2026-11-20",
+      "seller_name": "Apex Cloud Systems Inc.",
+      "seller_tax_id": "US-EIN-9481920",
+      "buyer_name": "Quantum Enterprises Ltd.",
+      "subtotal": 14750.0,
+      "tax_amount": 2655.0,
+      "total_amount": 17405.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_001.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88000",
+      "transaction_date": "2026-10-01",
+      "total_amount": 15.5,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_002.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88001",
+      "transaction_date": "2026-10-02",
+      "total_amount": 17.25,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_003.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88002",
+      "transaction_date": "2026-10-03",
+      "total_amount": 19.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_004.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88003",
+      "transaction_date": "2026-10-04",
+      "total_amount": 20.75,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_005.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88004",
+      "transaction_date": "2026-10-05",
+      "total_amount": 22.5,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_006.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88005",
+      "transaction_date": "2026-10-06",
+      "total_amount": 24.25,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_007.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88006",
+      "transaction_date": "2026-10-07",
+      "total_amount": 26.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_008.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88007",
+      "transaction_date": "2026-10-08",
+      "total_amount": 27.75,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_009.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88008",
+      "transaction_date": "2026-10-09",
+      "total_amount": 29.5,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_010.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88009",
+      "transaction_date": "2026-10-10",
+      "total_amount": 31.25,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_011.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88010",
+      "transaction_date": "2026-10-11",
+      "total_amount": 33.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_012.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88011",
+      "transaction_date": "2026-10-12",
+      "total_amount": 34.75,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_013.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88012",
+      "transaction_date": "2026-10-13",
+      "total_amount": 36.5,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_014.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88013",
+      "transaction_date": "2026-10-14",
+      "total_amount": 38.25,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "rcpt_store_015.txt",
+    "category": "Receipt",
+    "ground_truth": {
+      "merchant_name": "Blue Bottle Coffee & Bakery",
+      "receipt_number": "RCP-88014",
+      "transaction_date": "2026-10-15",
+      "total_amount": 40.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "filename": "contract_msa_001.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-01",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "contract_msa_002.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-02",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "contract_msa_003.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-03",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "contract_msa_004.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-04",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "contract_msa_005.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-05",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "contract_msa_006.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-06",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "contract_msa_007.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-07",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "contract_msa_008.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-08",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "contract_msa_009.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-09",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "contract_msa_010.txt",
+    "category": "Contract",
+    "ground_truth": {
+      "contract_title": "Master Software Services Agreement",
+      "agreement_number": "MSA-2026-10",
+      "parties_involved": "DocuMind Solutions Inc. & Global Logistics Corp",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2028-12-31",
+      "governing_law": "State of Delaware"
+    }
+  },
+  {
+    "filename": "resume_candidate_001.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate A Developer",
+      "email": "candidate.a@techtalent.io",
+      "phone_number": "+1 (555) 019-1000",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_002.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate B Developer",
+      "email": "candidate.b@techtalent.io",
+      "phone_number": "+1 (555) 019-1001",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_003.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate C Developer",
+      "email": "candidate.c@techtalent.io",
+      "phone_number": "+1 (555) 019-1002",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_004.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate D Developer",
+      "email": "candidate.d@techtalent.io",
+      "phone_number": "+1 (555) 019-1003",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_005.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate E Developer",
+      "email": "candidate.e@techtalent.io",
+      "phone_number": "+1 (555) 019-1004",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_006.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate F Developer",
+      "email": "candidate.f@techtalent.io",
+      "phone_number": "+1 (555) 019-1005",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_007.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate G Developer",
+      "email": "candidate.g@techtalent.io",
+      "phone_number": "+1 (555) 019-1006",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_008.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate H Developer",
+      "email": "candidate.h@techtalent.io",
+      "phone_number": "+1 (555) 019-1007",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_009.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate I Developer",
+      "email": "candidate.i@techtalent.io",
+      "phone_number": "+1 (555) 019-1008",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_010.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate J Developer",
+      "email": "candidate.j@techtalent.io",
+      "phone_number": "+1 (555) 019-1009",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_011.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate K Developer",
+      "email": "candidate.k@techtalent.io",
+      "phone_number": "+1 (555) 019-1010",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_012.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate L Developer",
+      "email": "candidate.l@techtalent.io",
+      "phone_number": "+1 (555) 019-1011",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_013.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate M Developer",
+      "email": "candidate.m@techtalent.io",
+      "phone_number": "+1 (555) 019-1012",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_014.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate N Developer",
+      "email": "candidate.n@techtalent.io",
+      "phone_number": "+1 (555) 019-1013",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "resume_candidate_015.txt",
+    "category": "Resume",
+    "ground_truth": {
+      "candidate_name": "Candidate O Developer",
+      "email": "candidate.o@techtalent.io",
+      "phone_number": "+1 (555) 019-1014",
+      "skills": "Python, FastAPI, React, TypeScript, PyMuPDF, Docker, PostgreSQL"
+    }
+  },
+  {
+    "filename": "po_requisition_001.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90001",
+      "purchase_date": "2026-10-01",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 45000.0
+    }
+  },
+  {
+    "filename": "po_requisition_002.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90002",
+      "purchase_date": "2026-10-02",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 46200.0
+    }
+  },
+  {
+    "filename": "po_requisition_003.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90003",
+      "purchase_date": "2026-10-03",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 47400.0
+    }
+  },
+  {
+    "filename": "po_requisition_004.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90004",
+      "purchase_date": "2026-10-04",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 48600.0
+    }
+  },
+  {
+    "filename": "po_requisition_005.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90005",
+      "purchase_date": "2026-10-05",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 49800.0
+    }
+  },
+  {
+    "filename": "po_requisition_006.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90006",
+      "purchase_date": "2026-10-06",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 51000.0
+    }
+  },
+  {
+    "filename": "po_requisition_007.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90007",
+      "purchase_date": "2026-10-07",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 52200.0
+    }
+  },
+  {
+    "filename": "po_requisition_008.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90008",
+      "purchase_date": "2026-10-08",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 53400.0
+    }
+  },
+  {
+    "filename": "po_requisition_009.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90009",
+      "purchase_date": "2026-10-09",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 54600.0
+    }
+  },
+  {
+    "filename": "po_requisition_010.txt",
+    "category": "Purchase Order",
+    "ground_truth": {
+      "po_number": "PO-90010",
+      "purchase_date": "2026-10-10",
+      "buyer_details": "Nexus Technologies - Procurement",
+      "supplier_details": "Dell Enterprise Server Supplies",
+      "total_amount": 55800.0
+    }
+  }
+]

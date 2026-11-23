@@ -1,0 +1,23 @@
+PURCHASE ORDER
+P.O. Number: PO-90007
+Order Date: 2026-10-07
+Requisition ID: REQ-39210
+
+Buyer:
+Nexus Technologies - Procurement
+100 Innovation Way, Austin, TX
+
+Vendor / Supplier:
+Dell Enterprise Server Supplies
+Round Rock, TX
+
+Ship To:
+Nexus Data Center East, Suite 200
+
+Item No    Description                    Qty    Unit Cost     Line Total
+-------------------------------------------------------------------------
+1          PowerEdge R750 Rack Server      2     $26100.00    $52200.00
+
+Order Subtotal:  $52200.00
+Total P.O. Val:  $52200.00
+Payment Terms:   Net 45 Days upon delivery
