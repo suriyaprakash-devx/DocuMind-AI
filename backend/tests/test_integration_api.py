@@ -13,8 +13,11 @@ def test_health_check_endpoint():
 def test_root_endpoint():
     response = client.get("/")
     assert response.status_code == 200
-    data = response.json()
-    assert "DocuMind" in data["message"]
+    if "text/html" in response.headers.get("content-type", ""):
+        assert "<!doctype html>" in response.text.lower() or "documind" in response.text.lower()
+    else:
+        data = response.json()
+        assert "DocuMind" in data.get("message", "")
 
 def test_auth_login_and_me_integration():
     # Attempt login with default seeded admin credentials

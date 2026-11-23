@@ -1,5 +1,8 @@
 import os
-from fastapi import FastAPI
+from pathlib import Path
+from fastapi import FastAPI, HTTPException
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
 from app.database.session import engine, Base, SessionLocal
@@ -42,13 +45,36 @@ def health_check():
         "environment": settings.ENVIRONMENT
     }
 
-@app.get("/", tags=["System"])
-def root():
-    return {
-        "message": "DocuMind AI Platform API is online.",
-        "docs_url": "/docs",
-        "health_url": "/health"
-    }
+# Frontend SPA Static Serving
+FRONTEND_DIST = Path(__file__).resolve().parent.parent.parent / "frontend" / "dist"
+if not FRONTEND_DIST.exists():
+    FRONTEND_DIST = Path("/app/frontend/dist")
+
+if FRONTEND_DIST.exists() and (FRONTEND_DIST / "index.html").exists():
+    assets_dir = FRONTEND_DIST / "assets"
+    if assets_dir.exists():
+        app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="assets")
+
+    @app.get("/", tags=["Frontend"])
+    def serve_root():
+        return FileResponse(str(FRONTEND_DIST / "index.html"))
+
+    @app.get("/{full_path:path}", tags=["Frontend"])
+    def serve_spa(full_path: str):
+        if full_path.startswith("api/") or full_path in ("docs", "redoc", "openapi.json"):
+            raise HTTPException(status_code=404, detail="Not Found")
+        file_path = FRONTEND_DIST / full_path
+        if file_path.is_file():
+            return FileResponse(str(file_path))
+        return FileResponse(str(FRONTEND_DIST / "index.html"))
+else:
+    @app.get("/", tags=["System"])
+    def root():
+        return {
+            "message": "DocuMind AI Platform API is online.",
+            "docs_url": "/docs",
+            "health_url": "/health"
+        }
 
 @app.on_event("startup")
 def startup_seed():
